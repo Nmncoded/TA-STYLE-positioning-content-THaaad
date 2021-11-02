@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(19, 43, 95);
+    color: whitesmoke;
+}
+
+.div {
+    font-size: 40px;
+    padding: 20px 20px 20px 10px;
+    display: inline-block;
+}
+.nav {
+    font-size: 20px ;
+    display: inline-block;
+}
+.a {
+    color: greenyellow;
+    text-decoration: none;
+    margin: 20px;
+}

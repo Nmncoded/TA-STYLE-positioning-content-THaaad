@@ -90,6 +90,11 @@ table {
 img {
     height: 250px;
     width: 350px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+p {
+    margin: 20px;
 }
 .clearfix::before, .clearfix::after {
     content: "";

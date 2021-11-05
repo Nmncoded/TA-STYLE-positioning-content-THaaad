@@ -54,9 +54,11 @@ table {
     width: 1510.912px;
     background-color: rgb(167, 243, 243);
     border: 2px solid grey;
-    border-radius: 70px;
-    margin: 5px 10px 0px 10px;
+    border-radius: 50px;
+    margin: 1px 10px 0px 10px;
     box-sizing: border-box;
+    position: fixed;
+
 }
 .div-header {
     float: left;
@@ -139,4 +141,43 @@ table {
 }
 .clearfix::after {
     clear: both;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    border-radius: 40px;
+    background-color: cadetblue;
+    text-align: center;
+    border: 2px solid grey;
+    margin: 0px 10px;
+
+}
+.footer-nav {
+    padding: 20px 0px;
+    font-size: 15px;
+}
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.position-fixed {
+    background-color: #e6a187;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    border-radius: 25%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.position-fixed a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

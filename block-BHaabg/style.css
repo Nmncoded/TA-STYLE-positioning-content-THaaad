@@ -49,61 +49,94 @@ table {
 
 /* custom styles */
 
-
 .header {
-    height: 100px;
-    background-color: #5e5757;
-    color: whitesmoke;
+    height: 94.600px;
+    width: 1510.912px;
+    background-color: rgb(167, 243, 243);
+    border: 2px solid grey;
+    border-radius: 70px;
+    margin: 5px 10px 0px 10px;
     box-sizing: border-box;
 }
-.div1 {
-    height: 100px;
-    width: 300px;
-    margin: 0px 0px 0px 20px;
-    display: inline-block;
-    padding: 20px 20px;
-    font-size: 40px;
+.div-header {
+    float: left;
+    margin: 25px;
+    font-size: 30px;
     box-sizing: border-box;
 }
-.div2 {
-    height: 100px;
-    width: 450px;
-    padding: 20px 20px;
-    margin: 0px 0px 0px 650px;
-    display: inline-block;
+.nav-header {
+    float: right;
+    margin: 25px 100px 25px 25px;
     font-size: 20px;
     box-sizing: border-box;
-    vertical-align: top;
 }
 .a {
+    margin: 20px;
     text-decoration: none;
-    color: white;
-    margin: 0px 14px;
+    color: black;
 }
-.div-float {
-    height: 450px;
-    width: 350px;
-    line-height: 1.2;
-    margin: 55px;
+
+.article1 {
+    width: 1510.912px;
+    margin: 10px 10px;
+    border: 2px solid grey;
+    background-color: rgb(212, 212, 209);
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.article2 {
+    width: 1510.912px;
+    margin: 10px 10px;
+    border: 2px solid grey;
+    background-color: rgb(179, 180, 125);
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.article3 {
+    width: 1510.912px;
+    margin: 10px 10px;
+    border: 2px solid grey;
+    background-color: rgb(230, 199, 199);
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.col-1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 430px;
     float: left;
 }
-img {
+.h1 {
+    font-size: 20px;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.p {
+    font-size: 15px;
+    margin: 20px;
+
+}
+
+.col-2 {
+    height: 300px;
+    width: 300px;
+    margin-right: 430px;
+    float: right;
+}
+.img {
     height: 250px;
-    width: 350px;
-    border-radius: 30px;
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 20px;
     object-fit: cover;
 }
-p {
-    margin: 20px;
-}
+
+/* clearfix */
+
 .clearfix::before, .clearfix::after {
     content: "";
     display: table;
 }
 .clearfix::after {
     clear: both;
-}
-.section-clearfix {
-    box-sizing: border-box;
-    margin: 20px 60px;
 }

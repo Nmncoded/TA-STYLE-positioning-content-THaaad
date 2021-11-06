@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+/* header */
+
+.header {
+    height: 300px;
+    max-width: 100%;
+    background-color: rgb(66 112 212);
+    box-sizing: border-box;
+}
+
+
+.header-col-1 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin:  2% 1.5%;
+    color: white;
+}
+.header-col-2 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 5% 1.5%;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header-col-2 h1 {
+    font-size: 30px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+.header-col-2 p {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+
+.header-col-3 {
+    float: left;
+    width: 30%;
+    margin:  2% 1.5%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.header-col-3 a {
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+    font-size: 20px;
+}
+/* section1 */
+
+.main-section {
+    margin: 20px 100px 0px 100px;
+}
+
+
+.article1 {
+    float: left;
+    max-width: 27%;
+    margin: 3% 3%;
+}
+
+.article1 h2 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.article1 p {
+    line-height: 30px;
+    margin-bottom: 15px;
+} 
+.article2 {
+    float: left;
+    max-width: 27%;
+    margin: 3% 3%;
+}
+
+.article2 h3 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.article2 p {
+    line-height: 30px;
+    margin-bottom: 15px;
+} 
+.article3 {
+    float: left;
+    max-width: 27%;
+    margin: 3% 3%;
+}
+
+.article3 h4 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.article3 p {
+    line-height: 30px;
+    margin-bottom: 15px;
+} 
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.button {
+    background-color: rgb(66 112 212);
+}
+.button a {
+    color: black;
+    text-decoration: none;
+}
+
+/* section2 */
+
+.big-box {
+    height: 600px;
+    max-width: 100%;
+    background-color: rgb(66 112 212);
+    box-sizing: border-box;
+}
+.small-box1 {
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.small-box1 h5, h6 {
+    font-size: 45px;
+    text-transform: capitalize;
+    margin: 20px 0px 10px 0px;
+}
+.small-box p {
+    padding: 0px 20px;
+    padding: 15px 0px;
+}
+
+.small-box2 {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 50px 0px 0px 210px;
+}
+
+.box-mini {
+    float: left;
+    height: 260px;
+    width: 180px;
+    margin: 30px 45px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid grey; 
+}
+.box-mini img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.name {
+    margin: 20px 0px;
+}
+
+/* section3 */
+
+.article7 {
+    float: left;
+    max-width: 42%;
+    margin: 3% 3% 3% 5%;
+}
+
+.article7 h2 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.article7 p {
+    line-height: 30px;
+    margin-bottom: 15px;
+} 
+
+
+.article8 {
+    float: left;
+    max-width: 42%;
+    margin: 3% 3% 3% 5%;
+}
+
+.article8 h3 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.article8 p {
+    line-height: 30px;
+    margin-bottom: 15px;
+} 
+
+.hr {
+    margin: 10px 120px 20px 120px;
+}
+
+/* footer section */
+
+.footer-div1 {
+    float: left;
+    margin: 10px 120px 20px 120px;
+
+}
+.footer-div2 {
+    float: right;
+    margin: 10px 120px 20px 120px;
+}
+.footer-div2 a {
+    color: grey;
+    text-decoration: none;
+    margin: 0px 10px;
+}
